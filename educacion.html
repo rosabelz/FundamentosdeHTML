@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <img src="images/logo.svg"></img>
+    <h1>Curriculum Vitae</h1>
+    <h2>Datos Personales</h2>
+      <h3>Nombre: Johnny Depp</h3>
+      <h3>Fecha de Nacimiento: June 9, 1963</h3>
+      <h3>Lugar de Nacimiento: Owensboro, KY</h3>
+
+      <nav>Enlaces de menú básico:
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educacion</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h2>Educacion</h2>
+        <table border="1" >
+          <tr>
+            <td>Año</td>
+            <td>Institución</td>
+            <td>Lugar</td>
+            <td>¿Culminó?</td>
+          </tr>
+          <tr>
+            <td>1979</td>
+            <td>High School</td>
+            <td>Miramar Florida</td>
+            <td>No</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <form>
+          <label for="ano">Año</label>
+          <select id="ano">
+            <option value="2015"></option>
+            <option value="2016"></option>
+            <option value="2017"></option>
+          </select>
+          <br>
+          <label for="institucion">Institucion</label>
+          <input id="institucion" type="text" name="institucion" value="" required>
+          <br>
+          <label for="lugar">Lugar</label>
+          <input id="lugar" type="text" name="lugar" value="" required>
+          <br>
+          <label for="radio">¿Culminó?</label>
+          <input type="radio" name="ended" value="Si" checked> Si
+          <input type="radio" name="ended" value="No"> No<br>
+          <input type="submit" value="Agregar">
+        </form>
+        <br>
+        <br>
+      </article>
+
+      <footer>
+        <p><a href="https://www.facebook.com/pages/Johnny-Depp/106076599424196">Facebook</a></p>
+        <p>Fuente: <a href="wwww.wikipedia.com">Wikipedia</a></p>
+      </footer>
+  </body>
+</html>
